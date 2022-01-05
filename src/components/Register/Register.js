@@ -30,7 +30,7 @@ const handleLoginSubmit = e => {
             <br/>
             
 
-            <form onSubmit={handleLoginSubmit}>
+            <form className="w-50 mx-auto" onSubmit={handleLoginSubmit}>
               
               <div className="row mb-3">
                 <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Name</label>

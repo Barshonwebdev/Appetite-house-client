@@ -48,20 +48,20 @@ const Login = () => {
             <br/>
             <br/>
             <h4>Or,</h4>
-            <form onSubmit={handleLoginSubmit}>
+            <form className="mx-auto w-50" onSubmit={handleLoginSubmit}>
               
               
               <div className="row mb-3">
                 <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
                 <div className="col-sm-10">
-                  <input name="email" type="email" className="form-control" id="inputEmail3" onBlur={handleOnChange} required/>
+                  <input name="email" type="email" className="form-control " id="inputEmail3" onBlur={handleOnChange} required/>
               </div>
               </div>
               
               <div className="row mb-3">
                 <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
                 <div className="col-sm-10">
-                  <input name="password" type="password" className="form-control" id="inputPassword3" onBlur={handleOnChange} required/>
+                  <input name="password" type="password" className="form-control " id="inputPassword3" onBlur={handleOnChange} required/>
                 </div>
               </div>
 
