@@ -1,5 +1,6 @@
 Project: Appetite house
-(Feature list)
+
+Appetite House is a catering service website aiming to complete tasks regarding catering service such as ordering, providing a menu etc through the site. The site consists of frontend and backend both functionalities and is fully functional catering service website. 
 
 Features of the web application:
 
